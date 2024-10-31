@@ -1,0 +1,23 @@
+getgenv()._ = "Join dsc.gg/Gqgj4A7ZSM | to get the latest update | never trust anyone, if u see them selling this script. this script is completely free."
+
+getgenv().initialTargetUsername = "YOUR_USERNAME_HERE"
+
+getgenv().Configuration = {
+    ['summonCommand'] = ".summon",  -- Summons the bot behind the player and says "I'm Here, [username]"
+    ['betrayCommand'] = ".betray",  -- Makes the bot follow a new target player specified
+    ['flingCommand'] = ".fling",  -- Flings the specified player
+    ['rejoinCommand'] = ".rejoin",  -- Rejoins the game
+    ['stopCommand'] = ".stop",  -- Stops all current actions
+    ['messageCommand'] = ".message",  -- Makes the bot send a message in chat
+    ['hideCommand'] = ".hide",  -- Hides the bot underground, following the player
+    ['viewCommand'] = ".view",  -- Views the specified player
+    ['orbitCommand'] = ".orbit",  -- Makes the bot orbit around the player with specified speed
+    ['bangCommand'] = ".bang",  -- Makes the bot follow right behind a player and play a specified animation
+    ['resetCommand'] = ".reset",  -- Resets the bot
+    ['leaveCommand'] = ".leave",  -- Makes the bot leave the server
+    ['punchCommand'] = ".punch",  -- Plays the punches animation in front of the player
+    ['setfpscap'] = "60",  -- Set FPS cap to reduce lag
+    ['summonText'] = "true",  -- Set this to "true" to enable summon text, "false" to disable
+    ['blankScreen'] = "true",  -- Set this to "true" to reduce lag, "false" to disable
+    ['commandExecutor'] = "true",  -- Enable or disable the command executor GUI
+}loadstring(game:HttpGet("https://raw.githubusercontent.com/mxx3x/PhantomStand/main/PhantomStand"))()
